@@ -111,9 +111,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if(user.isEmailVerified()){
                         //redirect to user profile
                         startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+                        progressBar.setVisibility(View.GONE);
                     }else{
                         user.sendEmailVerification();
                         Toast.makeText(MainActivity.this, "Check your email to verify your account!", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+
                     }
 
                 }else{
