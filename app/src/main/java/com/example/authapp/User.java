@@ -8,9 +8,11 @@ public class User {
 
     }
 
-    public User(String fullname, String age, String email){
-        this.fullname = fullname;
+    public User(String fullName, String age, String emailAddress){
+        this.fullname = fullName;
         this.age = age;
-        this.email = email;
+        this.email = emailAddress;
     }
+
+
 }

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AuthApp">
         <activity
+            android:name=".MealList"
+            android:exported="false" />
+        <activity
+            android:name=".MealPlan"
+            android:exported="false" />
+        <activity
             android:name=".forgotPassword"
             android:exported="false" />
         <activity
