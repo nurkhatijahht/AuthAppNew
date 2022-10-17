@@ -9,9 +9,108 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
         android:text="Meal Plan List"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="50dp"
-        android:textSize="30dp"/>
+        android:textSize="30dp" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/greenbackgroundcolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="220dp"
+        android:drawableStart="@drawable/ic_baseline_emoji_food_beverage_24"
+        android:text="Breakfast"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="96dp"
+        android:text="- 1 cup of tea or black coffee without sugar and milk"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="-25dp"
+        android:text="- Oatmeal porridge"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/greenbackgroundcolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="420dp"
+        android:text="Lunch"
+        android:drawableStart="@drawable/ic_baseline_emoji_food_beverage_24"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="96dp"
+        android:text="- 2 pieces of whole-grain toast with vegetables"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="96dp"
+        android:text="- Any grilled or boiled lean meats"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/greenbackgroundcolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="620dp"
+        android:text="Dinner"
+        android:drawableStart="@drawable/ic_baseline_emoji_food_beverage_24"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginBottom="96dp"
+        android:text="- Chicken Salad"
+
+        android:textSize="20dp" />
+
+
 
 </RelativeLayout>

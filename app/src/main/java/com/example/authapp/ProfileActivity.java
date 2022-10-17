@@ -87,9 +87,13 @@ public class ProfileActivity extends AppCompatActivity {
         gotomelaplan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ProfileActivity.this, MealPlan.class));
+                startActivity(new Intent(ProfileActivity.this, editprofile.class));
             }
         });
+
+
+
+
 
     }
 }

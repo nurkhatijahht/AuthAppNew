@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AuthApp">
         <activity
+            android:name=".editprofile"
+            android:exported="false" />
+        <activity
             android:name=".MealList"
             android:exported="false" />
         <activity
